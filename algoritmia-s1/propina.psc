@@ -10,8 +10,8 @@ Algoritmo CuentaPaseo
 	Escribir 'La propina:'
 	Leer propina
 	Si cantidadPersonas>0 Entonces
-		costoTotalPaseo <- costoTotalPaseo + propina
-		totalapagar<-costoTotalPaseo/cantidadPersonas
+		costoTotalPaseo <- costoTotalPaseo+propina
+		totalapagar <- costoTotalPaseo/cantidadPersonas
 		Escribir 'El total del paseo fue de: ', costoTotalPaseo
 		Escribir 'A cada persona le toca poner: ', totalapagar
 	SiNo
