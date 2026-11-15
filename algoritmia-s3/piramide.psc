@@ -1,0 +1,14 @@
+Algoritmo piramide
+	definir n, fila, j Como Entero
+	leer n
+	para fila <- 1 hasta n Hacer
+		para j <- 1 hasta n - fila con paso 1 Hacer
+			escribir sin saltar " "
+		FinPara
+		para j <- 1 hasta 2 * fila - 1 Hacer
+			escribir sin saltar "*"
+		FinPara
+		escribir ""
+	FinPara
+	
+FinAlgoritmo
